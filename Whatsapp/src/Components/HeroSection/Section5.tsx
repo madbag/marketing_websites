@@ -1,5 +1,5 @@
-import SectionImage1 from "../../assets/section-5.png";
-import SectionImage2 from "../../assets/section-6-b.png";
+import SectionImage1 from "../../assets/Frame 19 (1).png";
+import SectionImage2 from "../../assets/Frame 20 (1).png";
 import SectionImage3 from "../../assets/section-7.png";
 function Section5() {
   return (

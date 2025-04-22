@@ -9,6 +9,7 @@ function HeroSection() {
   return (
     <div className="flex flex-col items-center justify-center w-full">
       <Section1 />
+      <p>* Data charges may apply. Contact your provider for details.</p>
       <Section2 />
       <Section3 />
       <Section4 />

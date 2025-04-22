@@ -4,8 +4,8 @@ import WhatsApp from "../../assets/whatsapp-green.svg"
 
 function NavBar() {
   return (
-    <div className="flex flex-row items-center justify-between">
-      <div className="logo"><img src={WhatsApp} alt="Whatsapp Logo" /></div>
+    <div className="flex flex-row items-center justify-between my-4 px-[40px]">
+      <div className="logo w-[130px] h-[]30px "><img src={WhatsApp} alt="Whatsapp Logo" /></div>
 
       <div className="contents">
         <div className="middle-contents flex flex-row gap-3">
@@ -20,8 +20,8 @@ function NavBar() {
 
       <div className="links">
         <div className="flex flex-row gap-2">
-          <DownloadButton />
           <LoginButton />
+          <DownloadButton />
         </div>
       </div>
     </div>

@@ -1,16 +1,19 @@
-import BannerImage from "../../assets/banner-image-1.png";
+import Section1 from "./Section1";
+import Section2 from "./Section2";
+import Section3 from "./Section3";
+import Section4 from "./Section4";
+import Section5 from "./Section5";
+import Section6 from "./Section6";
 
 function HeroSection() {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <div className="section-1"> <img src={BannerImage} alt="Banner" className="rounded-4xl"/></div>
-      <div className="section-2">Message</div>
-      <div className="section-3">Voice/Video Calls</div>
-      <div className="section-4">Speak Freely</div>
-      <div className="section-5">Features</div>
-      <div className="section-6 w-full bg-[#e6ffda] flex flex-row items-center justify-center">
-        Cards
-      </div>
+    <div className="flex flex-col items-center justify-center w-full">
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4 />
+      <Section5 />
+      <Section6/>
     </div>
   );
 }

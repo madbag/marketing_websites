@@ -3,7 +3,7 @@ import React from "react";
 function DownloadButton() {
   return (
     <div>
-      <button className="bg-[#25d366] text-[#1d3128] flex flex-row items-center justify-center px-10 py-4 rounded-4xl gap-2">
+      <button className="bg-[#25d366] text-[#1d3128] flex flex-row items-center justify-center px-10 py-4 rounded-4xl gap-2 border">
         Download{" "}
         <svg
           width="15px"

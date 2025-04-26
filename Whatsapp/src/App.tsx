@@ -4,8 +4,8 @@ import NavBar from "./Components/Navbar/NavBar";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <header className="sticky top-0 z-50 bg-transparent">
+    <div>
+      <header className="sticky top-0 z-50">
         <NavBar />
       </header>
 

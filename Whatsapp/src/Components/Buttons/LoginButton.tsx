@@ -3,7 +3,7 @@ import React from "react";
 function LoginButton() {
   return (
     <div>
-      <button className="bg-white text-[#1d3128] flex flex-row items-center justify-center px-10 py-4 rounded-4xl border gap-2">
+      <button className="bg-white text-[#1d3128] flex flex-row items-center justify-center px-8 py-3 rounded-4xl border gap-2">
         Log in{" "}
         <svg
           width="15px"

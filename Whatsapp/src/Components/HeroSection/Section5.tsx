@@ -3,10 +3,10 @@ import SectionImage2 from "../../assets/Frame 20 (1).png";
 import SectionImage3 from "../../assets/section-7.png";
 function Section5() {
   return (
-    <div>
-      <div className="flex flex-row">
+    <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-row items-center justify-center">
         {" "}
-        <div>
+        <div className="w-[400px]">
           <h2>Keep in touch with your groups</h2>
           <p>
             Whether it's planning an outing with friends or simply staying on
@@ -20,7 +20,7 @@ function Section5() {
 
       <div className="flex flex-row">
         <img src={SectionImage2} alt="" />{" "}
-        <div>
+        <div className="w-[400px]">
           <h2>Say what you feel</h2>
           <p>
             Express yourself without words. Use stickers and GIFs or share
@@ -33,7 +33,7 @@ function Section5() {
 
       <div className="flex flex-row">
         {" "}
-        <div>
+        <div className="w-[400px]">
           <h2>Transform your business</h2>
           <p>
             WhatsApp Business helps you reach your customers globally to deliver

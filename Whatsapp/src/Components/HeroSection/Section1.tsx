@@ -11,8 +11,10 @@ function Section1() {
         style={{ backgroundImage: `url(${BannerImage})` }}
       >
         <div className="flex flex-col">
-          <h1 className="text-white text-[80px] tracking-tighter leading-none w-5 mb-5">Message privately</h1>
-          <p className="text-white w-[330px] tracking-tighter text-xl mb-[66px]">
+          <h1 className="text-white text-[80px] tracking-tight leading-none w-5 mb-5">
+            Message privately
+          </h1>
+          <p className="text-white w-[330px] tracking-tight text-xl mb-[66px]">
             Simple, reliable, private messaging and calling for free*, available
             all over the world.
           </p>

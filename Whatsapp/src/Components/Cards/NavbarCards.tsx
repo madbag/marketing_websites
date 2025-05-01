@@ -1,5 +1,3 @@
-import React from "react";
-
 interface cardProps {
   icon: React.ElementType;
   title: string;

@@ -9,12 +9,14 @@ function HeroSection() {
   return (
     <div className="flex flex-col items-center justify-center w-full">
       <Section1 />
-      <p className="text-xs my-2.5 text-right self-end mr-[40px] text-gray-500">* Data charges may apply. Contact your provider for details.</p>
+      <p className="text-xs my-2.5 text-right self-end mr-[40px] text-gray-500">
+        * Data charges may apply. Contact your provider for details.
+      </p>
       <Section2 />
       <Section3 />
       <Section4 />
       <Section5 />
-      <Section6/>
+      <Section6 />
     </div>
   );
 }

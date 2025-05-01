@@ -5,7 +5,7 @@ function Section2() {
   return (
     <div className="section-2 mt-15 flex flex-col items-center justify-center">
       <img src={Section2A} alt="small profile photos" />
-      <h3 className="text-5xl tracking-tighter w-[900px] text-center my-20">
+      <h3 className="text-5xl tracking-tight w-[900px] text-center my-20">
         With private messaging and calling, you can be yourself, speak freely
         and feel close to the most important people in your life no matter where
         they are.

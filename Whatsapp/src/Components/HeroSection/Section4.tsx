@@ -10,8 +10,8 @@ function Section4() {
         </div>
 
         <div className="flex flex-col w-[400px] items-left justify-center">
-          <h2 className="text-[#fefefe] text-6xl tracking-tighter mb-[20px] w-[200px]">
-            Speak 
+          <h2 className="text-[#fefefe] text-6xl tracking-tight mb-[20px] w-[200px]">
+            Speak
             <span className="text-green-500"> freely</span>
           </h2>
 

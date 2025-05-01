@@ -5,16 +5,16 @@ function Section3() {
   return (
     <div className="section-3 flex flex-row my-20 gap-[250px] ">
       <div className="w-[400px] mt-[160px]">
-        <h2 className="text-6xl tracking-tighter mb-[20px]">
+        <h2 className="text-6xl tracking-tight mb-[20px]">
           Never miss a moment with voice and video calls
         </h2>
-        <p className="tracking-tighter text-xl">
+        <p className="tracking-tight text-xl">
           From a group call to classmates to a quick call with mom, feel like
           you’re in the same room with voice and video calls.
         </p>
 
         <button>
-          <LearnMore className="text-black"/>
+          <LearnMore className="text-black" />
         </button>
       </div>
 

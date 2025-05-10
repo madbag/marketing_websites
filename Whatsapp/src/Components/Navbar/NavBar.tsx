@@ -104,6 +104,10 @@ const navbarCardsInfo = [
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className="flex flex-row items-center justify-between my-4 px-10 pt-2 pb-5 bg-[rgba(252,245,235,.8)] ">
       <div className="logo w-[130px] h-[30px] ">
@@ -112,11 +116,7 @@ function NavBar() {
 
       <div className="contents">
         <div className="middle-contents flex flex-row gap-9">
-          <div
-            className="relative"
-            onClick={() => setIsOpen(true)}
-            onMouseLeave={() => setIsOpen(false)}
-          >
+          <div className="relative" onClick={handleToggle}>
             {/* Features Start */}
             <p className="cursor-pointer flex flex-row gap-1">
               Features
@@ -125,7 +125,7 @@ function NavBar() {
                 height="13px"
                 width="15px"
                 viewBox="0 0 330 330"
-                className="mt-[6px]"
+                className={`mt-[6px] ${isOpen ? "rotate-180" : ""}`}
               >
                 <path
                   d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
@@ -136,7 +136,7 @@ function NavBar() {
             </p>
 
             {isOpen && (
-              <div className="absolute top-full w-screen bg-white flex flex-row z-50">
+              <div className="absolute top-full left-0 w-screen bg-white flex flex-row z-50">
                 {navbarCardsInfo.map((card, index) => (
                   <NavbarCard
                     key={index}

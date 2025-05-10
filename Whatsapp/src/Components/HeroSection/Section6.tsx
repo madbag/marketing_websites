@@ -31,16 +31,17 @@ function Section6() {
     },
   ];
   return (
-    <div className="w-full bg-[#e6ffda] flex flex-row py-[96px]">
-      <div>
+    <div className="w-screen bg-[#e6ffda] flex flex-row py-30 px-10 justify-between gap-[200px] rounded-br-[80px] rounded-bl-[80px]">
+      <div className="w-[440px]">
         {" "}
-        <h2 className="text-6xl tracking-tight">Stay up to date</h2>
+        <h2 className="text-6xl tracking-tight mb-6">Stay up to date</h2>
         <p>
           Get the latest from WhatsApp: news, useful tips, and our newest
           features to help you stay connected.
         </p>
       </div>
-      <div className=" flex flex-row gap-[24px]">
+
+      <div className="flex flex-row gap-[24px]">
         {" "}
         {cardData.map((item, index) => (
           <Cards key={index} title={item.title} paragraph={item.paragraph} />

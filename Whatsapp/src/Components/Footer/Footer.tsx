@@ -1,20 +1,24 @@
 import DownloadButton from "../Buttons/DownloadButton";
+import WhatsAppWhite from "../../assets/whatsapp-white.svg";
 
 function Footer() {
   return (
-    <div className="flex flex-col items-center justify-center bg-[#1C1E21] text-[#F0F4F9] pt-[100px] pb-[50px]">
+    <div className="flex flex-col items-center justify-center bg-[#1C1E21] text-[#F0F4F9]">
       {/* Top Footer */}
-      <div className="flex flex-row gap-22">
-        <div className="">
-          <div className="">Whats app logo </div>
-          <DownloadButton />
+      <div className="flex flex-row gap-22 py-[96px]">
+        <div className="flex flex-col">
+          <div className="">
+            <img src={WhatsAppWhite} alt="whatsapp log in white" className="w-[160px]"/>{" "}
+          </div>
+          <div className="mt-auto">
+            <DownloadButton />
+          </div>
         </div>
 
         <div className="flex flex-col">
           {" "}
-      
           <p className="text-xs pb-8">What we do</p>
-          <ul className="no-underline">
+          <ul className="no-underline space-y-3 text-lg">
             <li>Features</li>
             <li>Blog</li>
             <li>Security</li>
@@ -24,7 +28,7 @@ function Footer() {
         <div className="">
           <p className="text-xs pb-8">Who are we</p>
 
-          <ul className="no-underline">
+          <ul className="no-underline space-y-3 text-lg">
             <li>About us</li>
             <li>Careers</li>
             <li>Brand Center</li>
@@ -33,7 +37,7 @@ function Footer() {
         </div>
         <div className="">
           <p className="text-xs pb-8">Use WhatsApp</p>
-          <ul className="no-underline">
+          <ul className="no-underline space-y-3 text-lg">
             <li>Android</li>
             <li>Iphone</li>
             <li>Mac/PC</li>
@@ -43,7 +47,7 @@ function Footer() {
         <div className="">
           <p className="text-xs pb-8">Need help?</p>
 
-          <ul className="no-underline">
+          <ul className="no-underline space-y-3 text-lg">
             <li>Contact Us</li>
             <li>Help Center</li>
             <li>Apps</li>
@@ -53,7 +57,7 @@ function Footer() {
       </div>
 
       {/* Bottom Footer */}
-      <div className="top-footer flex flex-row gap-2 mt-[30px]">
+      <div className="top-footer flex flex-row gap-2 my-[32px]">
         <div className="">2025 © WhatsApp LLC</div>
         <div className="">Terms & Privacy Policy</div>
         <div className="">Sitemap</div>

@@ -109,14 +109,14 @@ function NavBar() {
   };
 
   return (
-    <div className="flex flex-row items-center justify-between my-4 px-10 pt-2 pb-5 bg-[rgba(252,245,235,.8)] ">
+    <div className="flex flex-row items-center justify-between my-4 px-10 py-4 bg-[rgba(252,245,235,.8)] backdrop-blur-[4px] ">
       <div className="logo w-[130px] h-[30px] ">
         <img src={WhatsApp} alt="Whatsapp Logo" />
       </div>
 
       <div className="contents">
         <div className="middle-contents flex flex-row gap-9">
-          <div className="relative" onClick={handleToggle}>
+          <div className="relative group" onClick={handleToggle}>
             {/* Features Start */}
             <p className="cursor-pointer flex flex-row gap-1">
               Features
